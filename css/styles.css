@@ -1,4 +1,10 @@
  @import url("bootstrap.min.css");
+ body {
+     background-image: url("https://bit.ly/32ywQfI");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
  .par {
      text-align: center;
      font-size: 30px;
