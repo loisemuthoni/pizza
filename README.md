@@ -12,7 +12,7 @@ DGIUSLGLISG
 # Set Up Instruction
 - Open your terminal (ctrl+alt+T). 
 - Initialize git on your terminal.
-- git clone https://github.com/loisemuthoni/pizza.git.
+- git clone https://loisemuthoni.github.io/pizza/.
 - open the 'pizza' folder.
 - Open the file named index.html on your preferred internet browser.
 - Enter your pizza of choice into the input boxes.
@@ -25,6 +25,9 @@ DGIUSLGLISG
 - JAVASCRIPT
 - JQUERY
 - BOOTSTRAP
+
+# Live Link
+- https://loisemuthoni.github.io/pizza/.
 
 # Contact Details
 Email: loisemburu01@gmail.com
