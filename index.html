@@ -51,34 +51,38 @@
         </div>
         <form>
             <div class="row">
-                <label>SIZE</label>
-                <select class="browser-default custom-select" id="size">
+                <div class="col-md-4">
+                    <label>SIZE</label>
+                    <select class="browser-default custom-select" id="size">
                 <option value="">Choose option</option>
                 <option value="1500">Large =ksh 1200</option>
                 <option value="1000">Medium =ksh 1000</option>
-                <option value="500">Small= ksh500</option>
+                <option value="500">Small= ksh 500</option>
             </select>
+                </div>
             </div>
-            <div>
+            <div class="col-md-4">
                 <label>CRUST</label>
                 <select class="browser-default custom-select" id="size">
                 <option value="">Choose option</option>
                 <option value="1500">Crispy =ksh 1200</option>
                 <option value="1000">Stuffed =ksh 1000</option>
-                <option value="500">Gluten free= ksh500</option>
+                <option value="500">Gluten free= ksh 800</option>
             </select>
             </div>
-            <div>
+            <div class="col-md-4">
                 <label>TOPPINGS</label>
                 <select class="browser-default custom-select" id="size">
                 <option value="">Choose option</option>
                 <option value="1500">Mushroom =ksh 1200</option>
                 <option value="1000">Macon =ksh 1000</option>
-                <option value="500">Sandwich beef= ksh500</option>
-                <option value="500">Mince= ksh500</option>
-                <option value="500">Pineapple= ksh500</option>
+                <option value="1200">Sandwich beef= ksh500</option>
+                <option value="1000">Mince= ksh 500</option>
+                <option value="1000">Pineapple= ksh 500</option>
             </select>
             </div>
+            <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2" onclick="getTotalAmount();"><strong>Checkout</strong>
+            </button>
         </form>
     </div>
 
