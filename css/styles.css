@@ -1,6 +1,6 @@
  @import url("bootstrap.min.css");
  body {
-     background-image: url("https://bit.ly/32ywQfI");
+     /* background-image: url("https://bit.ly/32ywQfI"); */
      background-repeat: no-repeat;
      background-size: cover;
  }
@@ -15,5 +15,3 @@
      width: 250px;
      height: 250px;
  }
- 
- .nav ul li {}
