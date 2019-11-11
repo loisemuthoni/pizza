@@ -6,13 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pizza</title>
-
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="Js/app.js"></script>
 
 </head>
 
@@ -53,7 +49,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <label>SIZE</label>
-                    <select class="browser-default custom-select">
+                    <select class="browser-default custom-select" id="top">
                 <option value="">Choose option</option>
                 <option value="1500">Large =ksh 1200</option>
                 <option value="1000">Medium =ksh 1000</option>
@@ -63,7 +59,7 @@
 
                 <div class="col-md-3">
                     <label>CRUST</label>
-                    <select class="browser-default custom-select">
+                    <select class="browser-default custom-select" id="top">
                 <option value="">Choose option</option>
                 <option value="1500">Crispy =ksh 1200</option>
                 <option value="1000">Stuffed =ksh 1000</option>
@@ -72,7 +68,7 @@
                 </div>
                 <div class="col-md-3">
                     <label>TOPPINGS</label>
-                    <select class="browser-default custom-select">
+                    <select class="browser-default custom-select" id="top">
                 <option value="">Choose option</option>
                 <option value="1500">Mushroom =ksh 1200</option>
                 <option value="1000">Macon =ksh 1000</option>
@@ -83,15 +79,17 @@
                 </div>
                 <div class="col-md-3">
                     <label>QUANTITY</label>
-                    <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max="" min="0">
+                    <input class="form-control" type="text" name="pizza" id="quantity" placeholder="0" max="" min="0">
                 </div>
             </div>
-        </form>
+        </form><br>
         <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2" onclick="getTotalAmount();"><strong>Checkout</strong>
             </button>
 
     </div>
 
+    <script src="Js/app.js"></script>
+    <script src="Js/"></script>
 </body>
 
 </html>
