@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pizza</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="Js/app.js"></script>
 
@@ -17,13 +20,14 @@
     <div class="container-fluid">
         <div>
             <P class="par">+254796579620</P>
+            <h1>MILES PIZZA</h1>
         </div>
 
-        <div class="nav">
+        <div class="nav d-flex align-items-center" id="hed">
             <img src="pizza-images/logo.jpg">
-            <h1>MILES PIZZA</h1>
+
             <nav>
-                <ul>
+                <ul class="d-flex justify-content-center align-items-center">
                     <li><a href="home">Home</a></li>
                     <li><a href="about us">About Us</a></li>
                     <li><a href="menu">Menu</a></li>
@@ -35,21 +39,47 @@
             <div class="col-md-4">
                 <h2>CRUSTS</h2>
                 <img src="pizza-images/3.jpg" height="270px" width="300px">
-
-
             </div>
             <div class="col-md-4">
                 <h2>TOPPINGS</h2>
                 <img src="pizza-images/4.jpg" height="270px" width="300px">
-
             </div>
             <div class="col-md-4">
                 <h2>TYPE</h2>
                 <img src="pizza-images/5.jpg" height="270px" width="300px">
-
             </div>
-
         </div>
+        <form>
+            <div class="row">
+                <label>SIZE</label>
+                <select class="browser-default custom-select" id="size">
+                <option value="">Choose option</option>
+                <option value="1500">Large =ksh 1200</option>
+                <option value="1000">Medium =ksh 1000</option>
+                <option value="500">Small= ksh500</option>
+            </select>
+            </div>
+            <div>
+                <label>CRUST</label>
+                <select class="browser-default custom-select" id="size">
+                <option value="">Choose option</option>
+                <option value="1500">Crispy =ksh 1200</option>
+                <option value="1000">Stuffed =ksh 1000</option>
+                <option value="500">Gluten free= ksh500</option>
+            </select>
+            </div>
+            <div>
+                <label>TOPPINGS</label>
+                <select class="browser-default custom-select" id="size">
+                <option value="">Choose option</option>
+                <option value="1500">Mushroom =ksh 1200</option>
+                <option value="1000">Macon =ksh 1000</option>
+                <option value="500">Sandwich beef= ksh500</option>
+                <option value="500">Mince= ksh500</option>
+                <option value="500">Pineapple= ksh500</option>
+            </select>
+            </div>
+        </form>
     </div>
 
 </body>
