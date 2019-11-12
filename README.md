@@ -7,7 +7,12 @@
 - This a website that mainly enables the user to order pizza easily.
 
 # BDD
-DGIUSLGLISG
+click the pizza image-get a brief definition of the kind of pizza	Pick your choice
+click the topping image-get a brief definition of the kind of topping	Pick your choice
+click the crust image-get a brief definition of the kind of crust	Pick your choice
+Once selection is done, click order	get your total price-With the price in mind you can choose to add another order or Checkout
+click checkout once satisfied, A message will appear, Choose whether or not you would like your pizza delivered to your place
+Enter location and will receive a notification letting you know a rider is coming to deliver. Wait for your pizza
 
 # Set Up Instruction
 - Open your terminal (ctrl+alt+T). 
