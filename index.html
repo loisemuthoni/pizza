@@ -46,7 +46,7 @@
                         <label>SIZE</label>
                         <select class="browser-default custom-select" id="sizes">
                 <option value="0">Choose option</option>
-                <option value="1500">Large =ksh 1200</option>
+                <option value="1500">Large =ksh 1500</option>
                 <option value="1000">Medium =ksh 1000</option>
                 <option value="500">Small= ksh 500</option>
             </select>
@@ -56,20 +56,20 @@
                         <label>CRUST</label>
                         <select class="browser-default custom-select" id="crusts">
                 <option value="">Choose option</option>
-                <option value="1500">Crispy =ksh 1200</option>
+                <option value="1500">Crispy =ksh 1500</option>
                 <option value="1000">Stuffed =ksh 1000</option>
-                <option value="500">Gluten free= ksh 800</option>
+                <option value="500">Gluten free= ksh 500</option>
             </select>
                     </div>
                     <div class="col-md-3">
                         <label>TOPPINGS</label>
                         <select class="browser-default custom-select" id="toppings">
                 <option value="">Choose option</option>
-                <option value="1500">Mushroom =ksh 1200</option>
+                <option value="1500">Mushroom =ksh 1500</option>
                 <option value="1000">Macon =ksh 1000</option>
-                <option value="1200">Sandwich beef= ksh500</option>
-                <option value="1000">Mince= ksh 500</option>
-                <option value="1000">Pineapple= ksh 500</option>
+                <option value="1200">Sandwich beef= ksh1200</option>
+                <option value="1000">Mince= ksh 1000</option>
+                <option value="1000">Pineapple= ksh 1000</option>
             </select>
                     </div>
                     <div class="col-md-3">
@@ -81,20 +81,38 @@
             <button class="btn btn-success mx-auto d-block submit" type="button" id="add"><strong>ADD</strong>
             </button>
         </form><br>
+
+        <p class="alert alert-primary text-center" id="para"></p>
         <table class="table" id="table">
             <thead>
                 <tr>
-                    <th scope="col">SIZE</th>
-                    <th scope="col">CRUSTS</th>
-                    <th scope="col">TOPPINGS</th>
-                    <th scope="col">QUANTITY</th>
-                    <th scope="col">TOTAL</th>
+                    <th scope="row">Quantity</th>
+                    <th scope="row">Size</th>
+                    <th scope="row">Toppings</th>
+                    <th scope="row">Crust</th>
+
+                    <th scope="row">Totals</th>
                 </tr>
             </thead>
+            <tbody id="tbl"></tbody>
+            <tfoot>
+                <tr></tr>
+            </tfoot>
         </table>
-        <button class="btn btn-success mx-auto d-block submit" type="button" id="submit2"><strong>Checkout</strong>
+        <div class="d-flex justify-content-center my-4">
+            <input type="checkbox" id="check">
+            <label for="check">
+                Do you want it to be delivered?                
+            </label>
+            <input type="text" id="mess">
+
+        </div>
+        <button class="btn btn-success mx-auto d-block submit" type="button" id="checkout"><strong>Checkout</strong>
             </button>
+
+
     </div>
+
 
     <script src="Js/app.js"></script>
 </body>
